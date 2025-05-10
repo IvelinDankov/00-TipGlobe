@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="blog.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <p class="logo">Triptopia</p>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="/Home/Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog/blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Destination</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn cta-btn">Book trip</button>
+    </header>
+    <main>
+      <section class="blog-header">
+        <h1 class="blog-title">Blog</h1>
+        <ul>
+          <li><a href="/Home/Home.html">Home</a></li>
+          &bull;
+          <li><a href="/blog/blog.html" class="active">Blog</a></li>
+        </ul>
+      </section>
+
+      <section class="blog-content">
+        <div class="container blog-container">
+          <div class="blog-content-list">
+            <div class="blog-content-item">
+              <img
+                src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
+                alt=""
+              />
+              <div class="blog-content-item-info">
+                <h2 class="blog-title-text">
+                  Anatolian Adventure: Off-the-Beaten-Path Discoveries in
+                  Turkey's Heartland
+                </h2>
+                <p class="blog-description">Lorem ipsum dolor sit amet.</p>
+                <div class="blog-info">
+                  <div class="blog-info-item">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <span>Author Name</span>
+                  </div>
+                  <div class="blog-info-item">
+                    <ion-icon name="calendar-outline"></ion-icon>
+                    <span>Published Date</span>
+                  </div>
+                  <div class="blog-info-item">
+                    <ion-icon name="chatbubble-outline"></ion-icon>
+                    <span>Comments</span>
+                  </div>
+                  <button class="btn btn-blog">Read more..</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-info-list">
+            <form action="">
+              <input type="text" placeholder="Search..." class="search-input" />
+              <button type="submit" class="search-btn">
+                <ion-icon name="search-outline"></ion-icon>
+              </button>
+            </form>
+            <div class="blog-info-item">
+              <h3 class="blog-info-title">Categories</h3>
+              <ul class="blog-info-list-item">
+                <li><a href="#">Adventure</a></li>
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Culture</a></li>
+              </ul>
+            </div>
+            <div class="blog-info-item">
+              <h3 class="blog-info-title">Recent Posts</h3>
+              <ul class="blog-info-list-item">
+                <li><a href="#">Exploring the Hidden Gems of Istanbul</a></li>
+                <li><a href="#">A Culinary Journey Through Turkey</a></li>
+                <li><a href="#">The Best Hiking Trails in Cappadocia</a></li>
+                <li>
+                  <a href="#">Discovering the Ancient Ruins of Ephesus</a>
+                </li>
+                <li><a href="#">A Guide to Turkish Cuisine</a></li>
+              </ul>
+            </div>
+
+            <div class="tags">
+              <h3 class="blog-info-title">Tags</h3>
+              <ul class="tags-list">
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Fresh</a></li>
+                <li><a href="#">Organic</a></li>
+                <li><a href="#">Vegetable</a></li>
+                <li><a href="#">Harvest</a></li>
+              </ul>
+            </div>
+
+            <div class="advertisment">
+              <div class="advartisment-content">
+                <h3 class="blog-info-title">Advertisment</h3>
+                <p class="advertisment-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae, cumque.
+                </p>
+                <button class="btn btn-advs">Go there</button>
+              </div>
+              <img
+                src="./blog-images/advs-image.jpg"
+                alt=""
+                class="advertisment-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
